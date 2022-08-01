@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  min-height: 100vh;
+  background: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 2rem;
+  background: white;
+  padding: 1.6rem 1.6rem 4rem 1.6rem;
+  /* box-shadow: 0 25px 25px rgba(0, 0, 0, 0.477); */
+}
+.card__imgBox {
+  margin-bottom: 2.4rem;
+  height: 28.8rem;
+  max-width: 28.8rem;
+}
+.card__imgBox img {
+  border-radius: 1rem;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.card__textbox {
+  text-align: center;
+  max-width: 28.8rem;
+}
+.card__title {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  color: #1f314f;
+  margin-bottom: 1.6rem;
+}
+.card__description {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
+  letter-spacing: 0.1875px;
+  color: #7d889e;
+  max-width: 25.6rem;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 26.87em) {
+  body {
+    display: block;
+    padding: 8.5rem 2.8rem;
+  }
+}
